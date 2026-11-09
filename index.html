@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade - BlocoPro Plugin Unicloud</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      color: #283443;
+      background: #f5f7fa;
+      margin: 0;
+    }
+    header {
+      background: #19456b;
+      color: white;
+      padding: 35px 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 35px;
+      background: white;
+      border-radius: 8px;
+    }
+    h1 { margin: 0; }
+    h2 {
+      color: #19456b;
+      margin-top: 30px;
+    }
+    a { color: #17699c; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #666;
+    }
+    @media (max-width: 600px) {
+      main { margin: 0; padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Política de Privacidade</h1>
+  <p>BlocoPro Plugin Unicloud - Versão 2.0</p>
+</header>
+
+<main>
+  <p><strong>Responsável:</strong> Unitel Telecom</p>
+  <p><strong>Última atualização:</strong> 09/11/2026</p>
+
+  <p>
+    Esta Política de Privacidade descreve como a extensão
+    BlocoPro Plugin Unicloud utiliza informações para
+    disponibilizar a funcionalidade Click2Call na plataforma
+    BlocoPro V2.
+  </p>
+
+  <h2>1. Finalidade da extensão</h2>
+  <p>
+    A extensão permite iniciar chamadas telefônicas diretamente
+    da interface do BlocoPro V2, utilizando a infraestrutura
+    de telefonia Unicloud da Unitel Telecom.
+  </p>
+  <p>
+    A solicitação de chamada é iniciada pelo usuário mediante
+    o acionamento do botão Click2Call.
+  </p>
+
+  <h2>2. Informações utilizadas</h2>
+  <p>
+    Para executar sua funcionalidade, a extensão utiliza:
+  </p>
+  <ul>
+    <li>
+      Usuário, token de autenticação e ramal de origem
+      configurados pelo usuário.
+    </li>
+    <li>
+      Número telefônico do contato apresentado no BlocoPro.
+    </li>
+    <li>
+      Identificadores técnicos das instâncias associadas
+      ao atendimento.
+    </li>
+    <li>
+      Informações de contexto do atendimento necessárias
+      à integração.
+    </li>
+  </ul>
+
+  <h2>3. Utilização das informações</h2>
+  <p>
+    As informações são utilizadas exclusivamente para
+    identificar o contato, preparar a solicitação de chamada
+    e encaminhá-la à API Unicloud.
+  </p>
+  <p>
+    A extensão acessa informações da interface e das respostas
+    de requisições do BlocoPro necessárias à integração.
+    Não possui como finalidade coletar o conteúdo das
+    mensagens dos atendimentos.
+  </p>
+
+  <h2>4. Armazenamento das credenciais</h2>
+  <p>
+    As configurações de usuário, token e ramal são armazenadas
+    localmente no navegador por meio de chrome.storage.local.
+  </p>
+  <p>
+    O acesso direto ao armazenamento é restrito aos contextos
+    confiáveis da extensão, por meio de TRUSTED_CONTEXTS.
+    Essa restrição não constitui criptografia própria dos
+    dados armazenados.
+  </p>
+
+  <h2>5. Comunicação com serviços externos</h2>
+  <p>
+    A extensão utiliza os seguintes serviços:
+  </p>
+  <ul>
+    <li>
+      <strong>BlocoPro V2:</strong> identificação das informações
+      necessárias ao atendimento e integração do botão.
+    </li>
+    <li>
+      <strong>API Unicloud:</strong> envio autenticado das
+      solicitações de Click2Call.
+    </li>
+  </ul>
+  <p>
+    As solicitações à API Unicloud são transmitidas por HTTPS.
+    A infraestrutura de telefonia poderá manter registros
+    operacionais das chamadas conforme suas práticas e
+    obrigações aplicáveis.
+  </p>
+
+  <h2>6. Compartilhamento e finalidade dos dados</h2>
+  <p>
+    As informações necessárias à chamada são transmitidas
+    à infraestrutura Unicloud para executar o serviço solicitado.
+  </p>
+  <p>
+    A extensão não utiliza dados pessoais para publicidade,
+    venda de informações ou avaliação de crédito.
+  </p>
+
+  <h2>7. Controle pelo usuário</h2>
+  <p>
+    O usuário pode atualizar suas configurações na página
+    de opções da extensão.
+  </p>
+  <p>
+    A remoção da extensão normalmente elimina os dados
+    locais associados a ela no perfil do navegador.
+  </p>
+
+  <h2>8. Segurança</h2>
+  <p>
+    A extensão utiliza permissões específicas para os
+    domínios necessários à integração e não executa
+    código JavaScript remoto.
+  </p>
+  <p>
+    A proteção das credenciais também depende da segurança
+    do dispositivo e do perfil do navegador utilizado.
+  </p>
+
+  <h2>9. Contato</h2>
+  <p>
+    <strong>Unitel Telecom</strong><br>
+    E-mail:
+    <a href="mailto:enio@uniteltelecom.com">
+      enio@uniteltelecom.com
+    </a><br>
+    Telefone:
+    <a href="tel:+555135419400">
+      (51) 3541-9400
+    </a>
+  </p>
+
+  <h2>10. Atualizações</h2>
+  <p>
+    Esta política poderá ser atualizada para refletir
+    alterações no funcionamento da extensão ou nos
+    requisitos aplicáveis.
+  </p>
+  <p>
+    Esta política se aplica especificamente à extensão
+    BlocoPro Plugin Unicloud 2.0 e não substitui as
+    políticas gerais das plataformas utilizadas.
+  </p>
+</main>
+
+<footer>
+  Unitel Telecom - BlocoPro Plugin Unicloud 2.0
+</footer>
+
+</body>
+</html>
